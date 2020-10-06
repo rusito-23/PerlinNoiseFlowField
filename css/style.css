@@ -1,0 +1,36 @@
+
+
+/* font settings */
+
+html * {
+    color: #000 !important;
+    font-family: courier, serif !important;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+html, body {
+    height: 100%
+}
+
+
+/* layout settings */
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+}
+
+/* canvas settings */
+
+canvas {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 23px;
+}
